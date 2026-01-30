@@ -19,6 +19,7 @@ st.set_page_config(page_title="Apple Stock Forecasting", layout="centered")
 st.title("Apple Stock Price Forecasting (LSTM)")
 
 DATA_PATH = "cleaned_data.csv"
+
 FORECAST_DAYS = 30
 
 @st.cache_data
